@@ -1,4 +1,4 @@
-# Memory Cards Game :ghost::ghost: :rainbow::rainbow:
+# Memory Cards Game :ghost::ghost:   :rainbow::rainbow:
 
 A fun card matching memory game. If you want to beat yourself, you'll have to be quick and have a great memory to win, it's a real challenge! If you feel like playing more quietly, you can also play in relax mode.
 
