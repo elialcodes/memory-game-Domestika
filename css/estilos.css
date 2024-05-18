@@ -31,35 +31,14 @@ body {
   margin-top: 0;
 }
 
-@media (max-width: 768px) {
-  .bienvenida h1 {
-    font-size: 4rem;
-  }
-}
-
 .bienvenida-botones {
   display: flex;
-}
-
-@media (max-width: 768px) {
-  .bienvenida-botones {
-    flex-direction: column;
-    gap: 20px;
-    font-size: 4rem;
-  }
 }
 
 .bienvenida button {
   padding: 1rem 3rem;
   margin: 0 1rem;
   min-width: 20rem;
-}
-
-@media (max-width: 768px) {
-  .bienvenida button {
-    padding: 1rem;
-    min-width: 15rem;
-  }
 }
 
 .cabecera {
@@ -87,12 +66,6 @@ body {
   font-weight: 400;
   font-size: 4rem;
   line-height: 0.9;
-}
-
-@media (max-width: 768px) {
-  .cabecera-num {
-    font-size: 2.5rem;
-  }
 }
 
 .contadores {
@@ -131,22 +104,6 @@ main {
   cursor: pointer;
   backface-visibility: hidden;
   transform-style: preserve-3d;
-}
-
-@media (max-width: 768px) {
-  .mesa {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat (8, 1fr);
-    margin: 3px 30px;
-  }
-
-  .tarjeta {
-    width: 4rem;
-    height: 4rem;
-    margin: 0.3rem;
-    border-radius: 0.2em;
-  }
 }
 
 .tarjeta__contenido {
@@ -253,13 +210,6 @@ main {
   justify-content: space-between;
   border-radius: 10px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 768px) {
-  .modal {
-    width: 300px;
-    padding: 1rem;
-  }
 }
 
 .modal h2 {
@@ -371,4 +321,44 @@ button:focus {
   font-size: 2rem;
   font-family: sans-serif;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .bienvenida h1 {
+    font-size: 4rem;
+  }
+
+  .bienvenida-botones {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 4rem;
+  }
+
+  .bienvenida button {
+    padding: 1rem;
+    min-width: 15rem;
+  }
+
+  .cabecera-num {
+    font-size: 2.5rem;
+  }
+
+  .mesa {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (8, 1fr);
+    margin: 3px 30px;
+  }
+
+  .tarjeta {
+    width: 4rem;
+    height: 4rem;
+    margin: 0.3rem;
+    border-radius: 0.2em;
+  }
+
+  .modal {
+    width: 300px;
+    padding: 1rem;
+  }
 }
